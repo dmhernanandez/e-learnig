@@ -1,0 +1,417 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #1891C9;
+}
+
+#principal {
+    background-color: rgba(52, 52, 110, 0.582);
+    width: 100%;
+    height: 120px;
+    margin-right: 1.5%;
+    float: left;
+}
+
+#usu {
+    position: absolute;
+    left: 50px;
+    top: 25px;
+}
+
+#foot {
+    position: absolute;
+    top: 50px;
+}
+
+.lpp {
+    position: absolute;
+    left: 150px;
+    top: -30px;
+}
+
+.foto {
+    width: 343px;
+    height: 100px;
+    /*background-color: #CCD1D1;*/
+    background-color: #e6e6e6;
+    border: 4px;
+}
+
+.abajo {
+    width: 99.99%;
+    height: 19.20px;
+    background-color: #1891C9;
+    float: left;
+    padding: 25px;
+    /*box-sizing: border-box;*/
+}
+
+.titulo {
+    width: 80%;
+    height: 30px;
+    border-left: 6px solid red;
+    background-color: lightgrey;
+    position: absolute;
+    left: 153px;
+    top: 180px;
+}
+
+.elear {
+    background-color: #1D8348;
+    color: #fff;
+    width: 150px;
+    height: 0px;
+    font-size: 190%;
+    position: relative;
+    float: left;
+    left: 25%;
+    top: -80px;
+}
+
+.par {
+    animation-name: parpa;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+}
+
+@keyframes parpa {
+    0% {
+        opacity: 1;
+    }
+    10% {
+        opacity: 0.8;
+    }
+    50% {
+        opacity: 0.3;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+u {
+    position: relative;
+    float: left;
+    left: 68%;
+    top: 60px;
+}
+
+form {
+    width: 25%;
+    height: 300px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    left: 150px;
+    top: 195px;
+}
+
+.fusuario {
+    border-left: 6px solid red;
+    background-color: lightgrey;
+    width: 210px;
+    height: 140px;
+    position: absolute;
+    left: -60.80px;
+    top: -85.60px;
+}
+
+.perfil {
+    border-left: 6px solid red;
+    background-color: lightgrey;
+    width: 210px;
+    height: 140px;
+    position: absolute;
+    left: -60.80px;
+    top: 80.60px;
+}
+
+#master {
+    border-left: 6px solid red;
+    background-color: lightgrey;
+    width: 210px;
+    height: 140px;
+    position: absolute;
+    left: 1.80px;
+    top: 20.60px;
+}
+
+.hom {
+    background-color: #f44336;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.hom {
+    position: absolute;
+    top: 115px;
+    left: 250px;
+}
+
+.hom:hover {
+    background-color: #2E86C1;
+    color: white;
+    transform: scale(1.10);
+    transition: all -1s;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+.nomb_curso{
+  color:black;
+  font-size: 20px;
+}
+
+.dropbtn {
+    background-color: #5DADE2;
+    color: white;
+    font-size: 16px;
+    border: none;
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    left: 890px;
+    top: 120px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #2E86C1;
+    width: 200px;
+    z-index: 1;
+    left: 890px;
+    top: 170.70px;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #c4d3f6;
+    color: white;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover.dropbtn {
+    background-color: #F7DC6F;
+}
+
+
+/**********************************/
+
+.lecciones {
+    position: absolute;
+    top: 190px;
+    left: 220px;
+    color: white;
+}
+
+.lec {
+    position: absolute;
+    left: 50px;
+    top: 80px;
+}
+
+.tareas {
+    position: absolute;
+    top: 190px;
+    left: 520px;
+    color: white;
+}
+
+.exam {
+    position: absolute;
+    top: 190px;
+    left: 820px;
+    color: white;
+}
+
+.notas {
+    position: absolute;
+    top: 395px;
+    left: 220px;
+    color: white;
+}
+
+.foros {
+    position: absolute;
+    top: 395px;
+    left: 520px;
+    color: white;
+}
+
+.videoC {
+    position: absolute;
+    top: 395px;
+    left: 820px;
+    color: white;
+}
+
+
+/********************************************************************************************************/
+
+
+/*CURSO1*/
+
+#espana {
+    width: 20%;
+    max-width: 900px;
+    margin: auto;
+    text-decoration: none;
+    color: white;
+}
+
+#curso1 {
+    background: rgba(52, 52, 110, 0.582);
+    padding: 20px;
+    margin: 20px 0;
+    color: #fff;
+    box-shadow: 0 5px 5px 3px rgba(0, 0, 0, 0.24);
+}
+
+#curso1 {
+    color: #fff;
+}
+
+#curso1 hr {
+    background: red;
+    height: 5px;
+    border: none;
+}
+
+#curso1,
+p {
+    line-height: 25px;
+}
+
+#curso1 h2,
+#curso1 p,
+#curso1 hr {
+    margin-bottom: 20px;
+}
+
+#curso1 {
+    position: absolute;
+    left: 210px;
+    top: -80px;
+}
+
+
+/**********************************/
+
+
+/*CURSO2*/
+
+#espana {
+    width: 20%;
+    max-width: 900px;
+    margin: auto;
+    text-decoration: none;
+    color: white;
+}
+
+#curso2 {
+    background: rgba(52, 52, 110, 0.582);
+    padding: 20px;
+    margin: 20px 0;
+    color: #fff;
+    box-shadow: 0 5px 5px 3px rgba(0, 0, 0, 0.24);
+}
+
+#curso2 {
+    color: #fff;
+}
+
+#curso2 hr {
+    background: red;
+    height: 5px;
+    border: none;
+}
+
+#curso2,
+p {
+    line-height: 25px;
+}
+
+#curso2 h2,
+#curso2 p,
+#curso2 hr {
+    margin-bottom: 20px;
+}
+
+#curso2 {
+    position: absolute;
+    left: 550px;
+    top: -80px;
+}
+
+
+/**********************************/
+
+
+/*CURSO3*/
+
+#espana {
+    width: 20%;
+    max-width: 900px;
+    margin: auto;
+    text-decoration: none;
+    color: white;
+}
+
+#curso3 {
+    background: rgba(52, 52, 110, 0.582);
+    padding: 20px;
+    margin: 20px 0;
+    color: #fff;
+    box-shadow: 0 5px 5px 3px rgba(0, 0, 0, 0.24);
+}
+
+#curso3 {
+    color: #fff;
+}
+
+#curso3 hr {
+    background: red;
+    height: 5px;
+    border: none;
+}
+
+#curso3,
+p {
+    line-height: 25px;
+}
+
+#curso3 h2,
+#curso3 p,
+#curso3 hr {
+    margin-bottom: 20px;
+}
+
+#curso3 {
+    position: absolute;
+    left: 900px;
+    top: -80px;
+}
+
+
+/**********************************/

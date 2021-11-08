@@ -1,0 +1,268 @@
+/*CURSO1*/
+
+.espana {
+    width: 80%;
+    height: auto;
+    margin: auto;
+    text-decoration: none;
+    color: white;
+    position: relative;
+    /*background-color: red;*/
+}
+
+.cur {
+    width: 300px;
+    background-color: #ECF0F1;
+    margin: 20px 8px 20px 15px;
+    display: inline-block;
+    position: relative;
+}
+
+.barra-inferior {
+    height: 5px;
+    margin: 0px;
+    background-color: red;
+    padding: 0px;
+}
+
+.cur:hover {
+    box-shadow: 0 5px 2px 3px rgba(0, 0, 4, 0.24);
+    transition-duration: 0.5s;
+    transform: scale(1.03);
+    cursor: pointer;
+}
+
+.separador {
+    height: 70px;
+    display: block;
+}
+
+hr {
+    background: red;
+    height: 10px;
+    border: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+p {
+    line-height: 25px;
+}
+
+.parrafo {
+    font-size: 20px;
+    color: #E5E7E9;
+    text-align: justify;
+}
+
+.ver-curso>img {
+    padding: 0;
+    height: 140px;
+    width: 100%;
+    margin: 0;
+}
+
+.nombre-curso {
+    color: #34495E;
+    font-family: Poppins;
+    font-size: 22px;
+
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+
+/***********************************************************************************************************************************/
+
+.nombre-instructor {
+    color: #34495E;
+    font-family: Quicksand-Bold;
+    font-size: 20px;
+    margin-left: 15px
+}
+
+.tutor {
+    margin-left: 15px;
+    font-family: Quicksand-Bold;;
+    margin-bottom: 7px;
+    color: #34495E;
+}
+
+#sub {
+    background: red;
+    height: 6px;
+    border: none;
+    position: relative;
+    top: 10px;
+}
+#barra {
+    background: red;
+    height: 6px;
+    border: none;
+    position: relative;
+    top: 10px;
+    margin-left: 30px;
+    width: 85%;
+}
+.titulo {
+    font-size: 30px;
+    position: relative;
+    padding: 30px;
+    font-weight: bold;
+    /*margin-left: 20%;*/
+    color: #2E4053 ;
+    font-family: "Century Gothic";
+}
+
+.ver {
+    background-color: #2C8BF0  ;
+    color: whitesmoke;
+    border-radius: 4px;
+
+    padding: 15px 32px;
+    font-weight: bold;
+    padding: 20px;
+    width: 40%;
+    text-align: center;
+    font-family: Quicksand-Bold;
+    display: inline-block;
+    font-size: 25px;
+    margin: 4px 2px;
+    margin-left: 30px;
+
+
+}
+
+.ver:hover {
+    background-color:#94BFED  ;
+    color: #2E4053 ;
+    cursor: pointer;
+
+}
+
+.pie2 {
+    font-size: 17px;
+    position: absolute;
+    top: 520px;
+    background-color: red;
+}
+
+.detalle {
+
+    position: relative;
+    margin-top: 460px;
+    margin-left: 30px;
+    color: #2E4053  ;
+    /*left: 150px;*/
+    /*    background: rgba(52, 52, 110, 0.582);*/
+}
+
+.imagen {
+    width: 955px;
+    position: relative;
+    float: left;
+    /*left: 150px;*/
+}
+.imagen>img
+{
+    height: 350px;
+    width: 500px;
+    padding: 20px;
+    background-color: snow;
+    border: 2px solid;
+    border-radius: 4px;
+    margin-left: 10px;
+
+}
+
+/*.pv {*/
+/*    font-size: 20px;*/
+/*}*/
+.desc-curso{
+    margin-top: 25px;
+    font-family: Poppins;
+    font-size: 18px;
+    text-align: justify;
+    margin-bottom: 25px;
+    margin-right: 35px;
+    color: #2E4053  ;
+}
+
+.inCur {
+    position: relative;
+    /*left: 150px;*/
+    /*margin-left: 10%;*/
+    margin-left: 30px;
+    margin-top: 45px;
+    color: #2E4053 ;
+
+}
+.inCur>ul{
+    margin-left: 5%;
+    font-family: Poppins;
+    font-size: 18px;
+}
+.inCur>p{
+    font-size: 25px;
+    color: #2E4053 ;
+    font-family: Poppins;
+}
+article {
+    background: rgba(52, 52, 110, 0.582);
+    padding: 20px;
+    margin: 20px 0;
+    color: #fff;
+    box-shadow: 0 5px 5px 3px rgba(0, 0, 0, 0.24);
+    border-radius: 3px;
+}
+
+#contenido h2 p {
+    color: #fff;
+}
+
+#contenido hr {
+    background: red;
+    height: 5px;
+    border: none;
+}
+
+#contenido p {
+    line-height: 25px;
+}
+
+#contenido h2,
+#contenido p,
+#contenido hr {
+    margin-bottom: 20px;
+}
+
+.cuadro
+{
+    width: 210px;
+    height: 140px;
+    border-left: 6px solid red;
+    background-color: lightgrey;
+    position: relative;
+    left: 960px;
+    top: 280px;
+}
+
+#la {
+    width: 158px;
+}
+
+#contenido-curso{
+    background: #F2F3F4 ;
+    margin-top: 4%;
+    width: 65%;
+    margin-left    : 15%;
+    border-radius: 5px;
+
+
+}
+.categoria, .instructor{
+    font-family: Helvetica;
+    margin-top: 10px;
+    color: #2E4053 ;
+    font-size: 25px;
+}

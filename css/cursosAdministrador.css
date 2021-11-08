@@ -1,0 +1,156 @@
+@font-face {
+    font-family: Quicksand-bold;
+    src: url("../fuentes/Quicksand/static/Quicksand-Bold.ttf");
+}
+
+@font-face {
+    font-family: Poppins;
+    src: url("../fuentes/Poppins/Poppins-Light.ttf");
+}
+
+
+/*:not([type="file"])*/
+
+textarea,
+input,
+select {
+    ;
+    border: solid 1px;
+    border-radius: 3px;
+    background-color: white;
+    font-family: Quicksand-Bold;
+    font-size: 15px;
+    padding: 4px;
+    margin-top: 3px;
+    width: 40%;
+    margin-left: 20px;
+}
+
+body {
+    background-color: #1891C9;
+}
+
+.titulo {
+    font-weight: bold;
+    font-size: 35px;
+    margin-left: 10%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-family: Quicksand-Bold;
+    color: #1C2833;
+}
+
+form {
+    margin-top: 5%;
+    border: gold 1px;
+    width: 80%;
+    background-color: #D6EAF8;
+    margin-left: 10%;
+    position: relative;
+    padding-bottom: 30px;
+    border-radius: 7px;
+}
+
+textarea {
+    resize: none;
+    height: 120px;
+}
+
+.etiquetas {
+    color: #212F3C;
+    font-size: 18px;
+    font-family: Poppins;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+p {
+    font-family: Poppins;
+    font-size: 12px;
+    padding: 0px;
+    margin: 0px 0px 0px 20px;
+    width: 40%;
+    text-align: justify;
+}
+
+.inputs-requeridos {
+    border-color: red;
+}
+
+#warning {
+    background-color: #F8C471;
+    width: 50%;
+    float: left;
+    top: 400px;
+    position: absolute;
+    right: 30px;
+    border-radius: 3px;
+}
+
+#warning>p {
+    width: 90%;
+}
+
+.warning-campos-incompletos {
+    color: #BA4A00;
+    font-size: 25px;
+    font-family: Quicksand-Bold;
+    text-align: center;
+}
+
+#mostrarLogo {
+    background-color: #EBEDEF;
+    position: absolute;
+    top: 60px;
+    right: 130px;
+    float: left;
+    width: auto;
+    height: auto;
+    padding: 2%;
+    border-radius: 5px;
+    border: #1b1e21 1px solid;
+}
+
+#mostrarLogo>label {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Poppins;
+}
+
+#mostrarLogo>img {
+    width: 300px;
+    height: 200px;
+    position: relative;
+}
+
+button {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    font-family: Poppins;
+    font-weight: bold;
+    color: #1C2833;
+    background-color: #99CC66;
+    border-radius: 6px;
+    border: 1px solid #145A32;
+    height: 40px;
+    font-size: 16px;
+}
+
+button:hover {
+    /*background: #A9DFBF  ;*/
+    /*cursor: pointer;*/
+    /*color: #0B5345 ;*/
+    cursor: pointer;
+    color: white;
+    background-color: #1E8449;
+    transform: scale(1.1);
+    box-shadow: 0px 1px 0px;
+}
+
+button:disabled,
+button[disabled] {
+    border: 1px solid #999999;
+    background-color: #cccccc;
+    color: #666666;
+}

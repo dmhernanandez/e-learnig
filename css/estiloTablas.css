@@ -1,0 +1,130 @@
+@font-face{
+    font-family: Quicksand-bold;
+    src: url("../fuentes/Quicksand/static/Quicksand-Bold.ttf");
+}
+
+@font-face {
+    font-family: Poppins;
+    src: url("../fuentes/Poppins/Poppins-Light.ttf");
+}
+
+.selected{
+    background-color: #5499C7 ;
+    color: white;
+}
+
+/*Damos formato a la tabla*/
+table{
+    position: relative;
+    background-color: #ffffff;
+    font-family: Poppins;
+    border-color: #85929E 	  ;
+    border-color: #707B7C;
+    border-radius: 4px;
+}
+th, td{
+    text-align: center;
+}
+td,tr{
+    border-right: 0px;
+    border-left: 0px;
+}
+thead
+{
+    font-family: Poppins;
+    background-color: #E5E7E9 ;
+    font-size: 18px;
+}
+tbody tr{
+    cursor: pointer;
+    font-size: 16px;
+    height: 20px;
+}
+
+
+a{
+    text-decoration: none;
+}
+/*Este estilo es el de la tabla donde se muestran todos los cursos registrados de la parte del administrador*/
+#cursos-registrados{
+    margin-top: 15px;
+    width: 100%;
+    color: #515A5A;
+}
+#cursos-registrados td{
+    height: 40px;
+}
+.contenido-tabla{
+    text-align: left;
+
+}
+/*Esta clase permite ver el documento que se encuentra en este enlace*/
+.verLeccion{
+
+    background-color: green;
+
+    padding: 3px;
+
+    color: whitesmoke;
+    border-radius: 5px;
+}
+.verLeccion:hover{
+    color: green;
+    background-color: whitesmoke;
+}
+/*Esta clase pertenece al enlace que permite ir a la pagian donde se actualizan los cursos*/
+.actualizarCurso{
+    background-color: #FBEEE6;
+    color: #6E2C00;
+    padding: 3px;
+    font-weight: bold;
+    border-radius: 3px;
+}
+.actualizarCurso:hover{
+    background-color: #FFC107;
+    color: white;
+    cursor: pointer;
+}
+/*Esta clase pertenece al enlace que permite ver ya actualizar las lecciones del curso*/
+.leccionesCurso{
+    background-color: #E8F6F3;
+    color: #145A32;
+    padding: 3px;
+   font-weight: bold;
+    border-radius: 3px;
+}
+.leccionesCurso:hover{
+    background-color: #1E8449;
+    color:  white;
+
+}
+
+
+/*Estilo de la tabla lecciones*/
+#tabla-lecciones{
+    width: 80%;
+    margin-left: 10%;
+}
+
+#tabla-lecciones-usuarios{
+    margin-top: 2%;
+    margin-left: 9%;
+    width: 80%;
+}
+
+#tabla-lecciones-usuarios th{
+    height: 50px;
+
+}
+#tabla-lecciones-usuarios thead{
+    background: #c4d3f6;
+}
+#tabla-lecciones-usuarios td{
+    height: 35px;
+}
+.nombreLeccion{
+    width: 30%;
+}
+.opcion{
+width: 15%;
+}

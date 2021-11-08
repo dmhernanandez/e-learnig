@@ -1,0 +1,142 @@
+
+body {
+    background-color: #1891C9;
+}
+ label {
+    font-size: 208px;
+    display: block;
+    /* ordenamos los labels */
+    width: 100%;
+}
+
+button {
+    width: 120px;
+    height: 35px;
+    background-color: #0f8fe4;
+}
+
+
+
+.etiquetas {
+    font-size: 20px;
+}
+
+button:hover {
+    background-color: #024f63;
+    color: white;
+}
+
+select,
+textarea,
+input:not([type="file"]) {
+    margin-bottom: 20px;
+    width: 50%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: none;
+    max-height: 300px;
+}
+
+<<<<<<< HEAD
+#logoActual {
+=======
+#mostrarLogo {
+>>>>>>> 099dc5478668348a5bae92ce8afb3e2034a49cf3
+    width: 13em;
+    height: 12em;
+}
+
+input:focus {
+    border: 1px solid #1668C4;
+
+}
+
+input[type="submit"] {
+    margin-bottom: 0px;
+    :#1668C4;
+	color:#fff;
+	border:none;
+}
+
+input[type="submit"]:hover {
+    background: #1668C8;
+    cursor: pointer;
+}
+/********************ARTICICLE*******************************/
+
+.espana {
+    width: 90%;
+    max-width: 900px;
+    margin: auto;
+}
+
+article {
+    background: rgba(52, 52, 110, 0.582);
+    padding: 20px;
+    margin: 20px 0;
+    color: #fff;
+    box-shadow: 0 5px 5px 3px rgba(0, 0, 0, 0.24);
+}
+
+article h2 {
+    color: #fff;
+}
+
+article hr {
+    background: red;
+    height: 5px;
+    border: none;
+}
+
+article p {
+    line-height: 25px;
+}
+
+article h2,
+article p,
+article hr {
+    margin-bottom: 20px;
+}
+
+
+/*******************************************************************/
+
+.descrip {
+    width: 90%;
+    max-width: 900px;
+    margin: auto;
+}
+
+article {
+    background: rgba(52, 52, 110, 0.582);
+    padding: 20px;
+    margin: 20px 0;
+    color: #fff;
+    box-shadow: 0 5px 5px 3px rgba(0, 0, 0, 0.24);
+}
+
+article h2 p {
+    color: #fff;
+}
+
+article hr {
+    background: red;
+    height: 5px;
+    border: none;
+}
+
+article p {
+    line-height: 25px;
+}
+
+article h2,
+article p,
+article hr {
+    margin-bottom: 20px;
+}
+
+
+/****************************/
